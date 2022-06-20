@@ -36,6 +36,9 @@ struct ChartView: View {
 
 struct BarChartView: View {
   var body: some View {
+    
+    
+    
     Chart {
       ForEach(postings) { posting in
         BarMark(
