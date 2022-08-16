@@ -7,7 +7,6 @@
 
 import SwiftUI
 import ComposableArchitecture
-import TCACoordinators
 
 public struct DetailView: View {
   var store: Store<DetailState, DetailAction>

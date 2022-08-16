@@ -48,6 +48,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1220CBDC28AB39B900BA499F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				123C241728AA2E9D002B1688 /* TCACoordinatorsPracticeApp.swift */,
+				123C241928AA2E9D002B1688 /* AppView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1220CBDD28AB39C300BA499F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				1220CBDE28AB39E000BA499F /* Component */,
+				123C243528AA3082002B1688 /* Feature */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		1220CBDE28AB39E000BA499F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				123C242D28AA303E002B1688 /* Home */,
+				123C243428AA3074002B1688 /* Detail */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1220CBE028AB3A0F00BA499F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1220CBE128AB3A3900BA499F /* Coordinator */,
+				1220CBE228AB3A4E00BA499F /* Screen */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1220CBE128AB3A3900BA499F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				123C243D28AA3762002B1688 /* CoordinatorView.swift */,
+				123C243B28AA3759002B1688 /* CoordinatorCore.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1220CBE228AB3A4E00BA499F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				123C243928AA35B3002B1688 /* ScreenCore.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		123C240B28AA2E9D002B1688 = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +120,8 @@
 		123C241628AA2E9D002B1688 /* TCACoordinatorsPractice */ = {
 			isa = PBXGroup;
 			children = (
-				123C241728AA2E9D002B1688 /* TCACoordinatorsPracticeApp.swift */,
-				123C241928AA2E9D002B1688 /* AppView.swift */,
-				123C243528AA3082002B1688 /* Screen */,
-				123C242D28AA303E002B1688 /* Home */,
-				123C243428AA3074002B1688 /* Detail */,
+				1220CBDC28AB39B900BA499F /* App */,
+				1220CBDD28AB39C300BA499F /* Module */,
 				123C241B28AA2E9E002B1688 /* Assets.xcassets */,
 				123C241D28AA2E9E002B1688 /* Preview Content */,
 			);
@@ -104,14 +154,12 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
-		123C243528AA3082002B1688 /* Screen */ = {
+		123C243528AA3082002B1688 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				123C243928AA35B3002B1688 /* ScreenCore.swift */,
-				123C243B28AA3759002B1688 /* CoordinatorCore.swift */,
-				123C243D28AA3762002B1688 /* CoordinatorView.swift */,
+				1220CBE028AB3A0F00BA499F /* Main */,
 			);
-			path = Screen;
+			path = Feature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -6,7 +6,6 @@
 //
 
 import ComposableArchitecture
-import TCACoordinators
 
 public struct DetailState: Equatable {
   public var title: Int
