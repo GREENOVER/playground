@@ -37,3 +37,4 @@ let mainReducer = Reducer.combine([
     }
   }
 ])
+  .signpost()
