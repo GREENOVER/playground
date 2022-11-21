@@ -25,7 +25,6 @@ struct MainView: View {
       InfiniteCarouselView(
         store: carouselStore
       )
-      .padding(.horizontal, 20)
     }
   }
 }

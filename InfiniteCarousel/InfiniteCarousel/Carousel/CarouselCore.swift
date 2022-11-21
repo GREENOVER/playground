@@ -12,6 +12,8 @@ struct CarouselState: Equatable {
   public var tabs: [Tab]
   public var index: Int
   
+  public var cindex: Int = 0
+  
   init(
     tabs: [Tab],
     index: Int = 0
@@ -30,6 +32,8 @@ enum CarouselAction: Equatable {
   case incrementIndex
   
   case startUserScroll
+  
+  case test(Tab)
 }
 
 struct CarouselEnvironment {
@@ -86,6 +90,14 @@ let carouselReducer = Reducer<CarouselState, CarouselAction, CarouselEnvironment
         .delay(for: 1, scheduler: env.mainQueue)
         .eraseToEffect(),
     ])
+    
+  case let .test(tab):
+    let index = state.tabs.firstIndex { currentTab in
+      return currentTab.title == tab.title
+    } ?? 0
+    state.cindex = index
+    
+    return .none
   }
 }
 

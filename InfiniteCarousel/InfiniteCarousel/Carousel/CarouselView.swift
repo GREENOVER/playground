@@ -20,15 +20,18 @@ public struct InfiniteCarouselView: View {
         )
       ) {
         ForEach(viewStore.state.tabs, id: \.hashValue) { tab in
-          VStack {
+          HStack {
             Spacer()
-            
-            Text(tab.title)
-              .font(.largeTitle)
-            
+            VStack {
+              Spacer()
+              
+              Text(tab.title)
+                .font(.largeTitle)
+              
+              Spacer()
+            }
             Spacer()
           }
-          .frame(maxWidth: .infinity, maxHeight: .infinity)
           .background(tab.bgColor)
           .tag(
             getIndex(
@@ -39,7 +42,9 @@ public struct InfiniteCarouselView: View {
         }
       }
       .tabViewStyle(.page(indexDisplayMode: .never))
-      .frame(height: 300)
+      .aspectRatio(CGSize(width: 3, height: 1), contentMode: .fit)
+      .frame(minHeight: 120)
+//      .frame(maxWidth: .infinity, maxHeight: .infinity)
       .onAppear {
         viewStore.send(.onAppear)
       }
