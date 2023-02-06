@@ -16,11 +16,11 @@ struct ContentView: View {
         .font(.largeTitle)
         .padding(.top, 50)
       
-      List(colors, id: \.self) { color in
+//      List(colors, id: \.self) { color in
         RoundedRectangle(cornerRadius: 10)
           .frame(width: 300, height: 50)
-          .foregroundColor(color)
-      }
+          .foregroundColor(colors.first)
+//      }
       .onAppear {
         colors = initColors()
       }
@@ -30,7 +30,7 @@ struct ContentView: View {
       
       CustomRefresher()
         .refreshable {
-          await colors.append(contentsOf: addColors())
+          await colors = addColors()
         }
       
       Spacer()
