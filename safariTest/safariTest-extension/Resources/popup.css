@@ -1,0 +1,32 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  width: 100px;
+  padding: 10px;
+  font-family: system-ui;
+  text-align: center;
+}
+
+span {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0, 0, 10px rgba(0, 0, 0, .5);
+}
+
+span::before {
+  content: "🍏";
+  line-height: 50px;
+}
+
+@media (prefers-color-scheme: dark) {
+  span {
+    background-color: #000;
+  }
+}
