@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Licenses</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/Alamofire</string>
+			<key>Title</key>
+			<string>Alamofire (5.7.1)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/combine-schedulers</string>
+			<key>Title</key>
+			<string>combine-schedulers (0.10.0)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/swift-case-paths</string>
+			<key>Title</key>
+			<string>swift-case-paths (0.14.1)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/swift-clocks</string>
+			<key>Title</key>
+			<string>swift-clocks (0.3.0)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/swift-collections</string>
+			<key>Title</key>
+			<string>swift-collections (1.0.4)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/swift-composable-architecture</string>
+			<key>Title</key>
+			<string>swift-composable-architecture (0.54.1)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/swift-custom-dump</string>
+			<key>Title</key>
+			<string>swift-custom-dump (0.10.3)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/swift-dependencies</string>
+			<key>Title</key>
+			<string>swift-dependencies (0.5.1)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/swift-identified-collections</string>
+			<key>Title</key>
+			<string>swift-identified-collections (0.7.1)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/swiftui-navigation</string>
+			<key>Title</key>
+			<string>swiftui-navigation (0.7.2)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>LicenseProject/xctest-dynamic-overlay</string>
+			<key>Title</key>
+			<string>xctest-dynamic-overlay (0.8.5)</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+	</array>
+</dict>
+</plist>

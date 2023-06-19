@@ -1,0 +1,25 @@
+name: Alamofire, nameSpecified: Alamofire, owner: Alamofire, version: 5.7.1, source: https://github.com/Alamofire/Alamofire
+
+name: combine-schedulers, nameSpecified: combine-schedulers, owner: pointfreeco, version: 0.10.0, source: https://github.com/pointfreeco/combine-schedulers
+
+name: swift-case-paths, nameSpecified: swift-case-paths, owner: pointfreeco, version: 0.14.1, source: https://github.com/pointfreeco/swift-case-paths
+
+name: swift-clocks, nameSpecified: swift-clocks, owner: pointfreeco, version: 0.3.0, source: https://github.com/pointfreeco/swift-clocks
+
+name: swift-collections, nameSpecified: swift-collections, owner: apple, version: 1.0.4, source: https://github.com/apple/swift-collections
+
+name: swift-composable-architecture, nameSpecified: swift-composable-architecture, owner: pointfreeco, version: 0.54.1, source: https://github.com/pointfreeco/swift-composable-architecture
+
+name: swift-custom-dump, nameSpecified: swift-custom-dump, owner: pointfreeco, version: 0.10.3, source: https://github.com/pointfreeco/swift-custom-dump
+
+name: swift-dependencies, nameSpecified: swift-dependencies, owner: pointfreeco, version: 0.5.1, source: https://github.com/pointfreeco/swift-dependencies
+
+name: swift-identified-collections, nameSpecified: swift-identified-collections, owner: pointfreeco, version: 0.7.1, source: https://github.com/pointfreeco/swift-identified-collections
+
+name: swiftui-navigation, nameSpecified: swiftui-navigation, owner: pointfreeco, version: 0.7.2, source: https://github.com/pointfreeco/swiftui-navigation
+
+name: xctest-dynamic-overlay, nameSpecified: xctest-dynamic-overlay, owner: pointfreeco, version: 0.8.5, source: https://github.com/pointfreeco/xctest-dynamic-overlay
+
+add-version-numbers: true
+
+LicensePlist Version: 3.24.9
