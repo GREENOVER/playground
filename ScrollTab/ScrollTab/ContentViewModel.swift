@@ -1,8 +1,8 @@
 //
 //  ContentViewModel.swift
-//  CustomTabView
+//  ScrollTab
 //
-//  Created by GREEN on 2023/07/03.
+//  Created by GREEN on 2023/07/10.
 //
 
 import SwiftUI
@@ -10,3 +10,4 @@ import SwiftUI
 class ContentViewModel: ObservableObject {
   @Published var selectedTab: Tab = .one
 }
+

@@ -68,7 +68,6 @@ public struct CustomTabView<Selection>: View where Selection: Hashable & Identif
                 .fill(Color.black)
                 .frame(width: tabSize, height: 3)
                 .offset(x: barXOffset)
-//                .animation(barIsActive ? .linear(duration: 0.25) : .none, value: barXOffset)
                 .animation(.linear(duration: 0.25))
               
               Spacer()
@@ -98,4 +97,3 @@ public struct CustomTabView<Selection>: View where Selection: Hashable & Identif
     }
   }
 }
-
