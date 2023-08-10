@@ -8,14 +8,17 @@
 import Foundation
 
 protocol TodoListInteractorInput: AnyObject {
-  func fetchTodos() -> [Todo]
+  func fetchTodos(completion: @escaping (Result<[Todo], Error>) -> Void)
 }
 
 class TodoListInteractor: TodoListInteractorInput {
-  func fetchTodos() -> [Todo] {
-    let todos = (1...10).map {
-      Todo(title: "할 일 \($0)")
-    }
-    return todos
+  private let todoNetworkService: TodoNetworkServiceProtocol
+  
+  init(todoNetworkService: TodoNetworkServiceProtocol) {
+    self.todoNetworkService = todoNetworkService
+  }
+
+  func fetchTodos(completion: @escaping (Result<[Todo], Error>) -> Void) {
+    todoNetworkService.getTodos(completion: completion)
   }
 }

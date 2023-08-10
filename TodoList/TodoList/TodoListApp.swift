@@ -13,7 +13,7 @@ struct TodoListApp: App {
     WindowGroup {
       TodoListView(
         presenter: TodoListPresenter(
-          interactor: TodoListInteractor(),
+          interactor: TodoListInteractor(todoNetworkService: TodoNetworkService()),
           router: TodoListRouter()
         )
       )

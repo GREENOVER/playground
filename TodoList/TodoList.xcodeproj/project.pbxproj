@@ -16,6 +16,7 @@
 		1265476E2A808D9F00B154A5 /* TodoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265476D2A808D9F00B154A5 /* TodoListPresenter.swift */; };
 		126547702A808E0500B154A5 /* TodoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265476F2A808E0500B154A5 /* TodoListRouter.swift */; };
 		126547722A808F7100B154A5 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126547712A808F7100B154A5 /* TodoDetailView.swift */; };
+		12895CE22A8466B800456E2F /* TodoNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12895CE12A8466B800456E2F /* TodoNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1265476D2A808D9F00B154A5 /* TodoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListPresenter.swift; sourceTree = "<group>"; };
 		1265476F2A808E0500B154A5 /* TodoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListRouter.swift; sourceTree = "<group>"; };
 		126547712A808F7100B154A5 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
+		12895CE12A8466B800456E2F /* TodoNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				120B17162A8084570079862B /* TodoListApp.swift */,
+				12895CE02A84669E00456E2F /* Service */,
 				126547642A808C6D00B154A5 /* View */,
 				126547652A808C7400B154A5 /* Interactor */,
 				126547662A808C7F00B154A5 /* Presenter */,
@@ -120,6 +123,14 @@
 				1265476F2A808E0500B154A5 /* TodoListRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		12895CE02A84669E00456E2F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				12895CE12A8466B800456E2F /* TodoNetworkService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				1265476C2A808CEC00B154A5 /* TodoListInteractor.swift in Sources */,
 				120B17192A8084570079862B /* TodoListView.swift in Sources */,
 				1265476E2A808D9F00B154A5 /* TodoListPresenter.swift in Sources */,
+				12895CE22A8466B800456E2F /* TodoNetworkService.swift in Sources */,
 				126547722A808F7100B154A5 /* TodoDetailView.swift in Sources */,
 				120B17172A8084570079862B /* TodoListApp.swift in Sources */,
 				1265476A2A808C9D00B154A5 /* Todo.swift in Sources */,

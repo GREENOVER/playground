@@ -39,7 +39,7 @@ struct TodoListView: View {
 
 struct TodoListView_Previews: PreviewProvider {
   static var previews: some View {
-    let interactor = TodoListInteractor()
+    let interactor = TodoListInteractor(todoNetworkService: TodoNetworkService())
     let router = TodoListRouter()
     let presenter = TodoListPresenter(interactor: interactor, router: router)
     

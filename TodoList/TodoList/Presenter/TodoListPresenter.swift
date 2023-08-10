@@ -22,7 +22,17 @@ class TodoListPresenter: ObservableObject {
   }
   
   private func fetchTodos() {
-    todos = interactor.fetchTodos()
+    interactor.fetchTodos { [weak self] result in
+      DispatchQueue.main.async {
+        switch result {
+        case .success(let fetchedTodos):
+          self?.todos = fetchedTodos
+        case .failure(let error):
+          // Handle Error
+          print("Error fetching todos: \(error.localizedDescription)")
+        }
+      }
+    }
   }
   
   func didSelectedTodo(_ todo: Todo) {

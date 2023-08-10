@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Todo: Identifiable {
-  let id = UUID()
+struct Todo: Identifiable, Decodable {
+  var id = UUID()
   let title: String
 }
