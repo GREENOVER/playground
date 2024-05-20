@@ -1,0 +1,17 @@
+<animals>
+    <animal>
+        <name>momo</name>
+        <owner>green</owner>
+        <age>10</age>
+    </animal>
+    <animal>
+        <name>bbobbi</name>
+        <owner>blue</owner>
+        <age>3</age>
+    </animal>
+    <animal>
+        <name>chorong</name>
+        <owner>yellow</owner>
+        <age>15</age>
+    </animal>
+</animals>
